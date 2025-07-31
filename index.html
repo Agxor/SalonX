@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SalonX - Futuristic Experience</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://i.pinimg.com/474x/9f/3f/4a/9f3f4ab648b7fc96921253670cf5b714.jpg" type="image/png">
+</head>
+
+<body>
+    <header>
+        <h1><a href="#">SalonX</a></h1>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#services">Services</a>
+            <a href="#booking">Book</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay muted loop playsinline id="heroVideo">
+            <source
+                src="stock-footage-closeup-human-long-hair-texture-in-slow-motion-black-straight-hair-background.webm"
+                type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h2>Experience the Future of Beauty</h2>
+            <p>High-tech styling, luxury service, AI powered grooming</p>
+        </div>
+    </section>
+
+    <div class="main-bg">
+        <section class="gallery" id="gallery">
+            <h2>Our Futuristic Looks</h2>
+            <div class="gallery-grid">
+                <img src="https://png.pngtree.com/background/20250104/original/pngtree-a-modern-and-sophisticated-hair-salon-background-featuring-minimalist-hollowed-design-picture-image_15487431.jpg"
+                    alt="Style 1">
+                <img src="https://img.freepik.com/premium-photo/professional-makeup-artist-working-with-beautiful-young-woman_35150-1347.jpg"
+                    alt="Style 2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt_z2iwC4Xr6OgqqDFKc0L39Y6aJtzp3zM8pR3jLPslfQLphbOOHSR8nGf9ge1DuzMLAg&usqp=CAU"
+                    alt="Style 3">
+                <img src="https://cdn.shopify.com/s/files/1/0558/6413/1764/files/Black_Nail_Design_30_1024x1024.webp?v=1722584348"
+                    alt="Style 4">
+            </div>
+        </section>
+    </div>
+
+    <div class="main-bg">
+        <section class="services-heading-section" id="services">
+            <h2 class="services-heading">Our Services</h2>
+        </section>
+    </div>
+
+    <section class="cards">
+        <div class="card">
+            <i class="fas fa-cut"></i>
+            <h3>Precision Haircuts</h3>
+            <p>Modern styles with laser-precision tools.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-palette"></i>
+            <h3>Smart Hair Coloring</h3>
+            <p>AI-assisted perfect shades every time.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-hand"></i>
+            <h3>Relaxing Massages</h3>
+            <p>Stress-busting techniques for head and shoulders.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-smile-beam"></i>
+            <h3>Facials</h3>
+            <p>Glow boosting with nano mist therapy.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-hand-sparkles"></i>
+            <h3>Manicure</h3>
+            <p>Crystal finish with futuristic polish tech.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-shoe-prints"></i>
+            <h3>Pedicure</h3>
+            <p>Smart exfoliation & massage rollers.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-user-astronaut"></i>
+            <h3>Style Assistance</h3>
+            <p>AR preview before styling begins.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-spa"></i>
+            <h3>Spa Therapy</h3>
+            <p>Thermal-light rejuvenation treatment.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-bolt"></i>
+            <h3>Laser Hair Removal</h3>
+            <p>Painless sessions with smart lasers.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-robot"></i>
+            <h3>AI Styling Bots</h3>
+            <p>Hairdressing with robotics precision.</p>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <h2>Book an Appointment</h2>
+        <form action="https://formsubmit.co/chakrabortyanurag445@gmail.com" method="POST">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="integer" name="Number" placeholder="Your Mobile Number" required>
+            <select name="Service">
+                <option value="Haircut">Haircut</option>
+                <option value="Color">Color</option>
+                <option value="Massage">Massage</option>
+                <option value="Facial">Facial</option>
+            </select>
+            <input type="date" name="Date" required>
+            <textarea name="Message" placeholder="Any specific request?"></textarea>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <div class="main-bg">
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>
+                    At <strong>The Salon Masters</strong>, we blend beauty with cutting-edge technology to offer
+                    an unparalleled grooming experience. From AI-powered styling bots to smart diagnostics and
+                    precision treatments, we’re redefining the future of personal care.
+                </p>
+                <p>
+                    Our expert team is trained in the latest trends and futuristic tools to bring your vision to life.
+                    Step into our salon and step into the next generation of beauty.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <div class="features">
+            <div class="feature">
+                <i class="fas fa-robot"></i>
+                <h3>AI Precision</h3>
+                <p>Robotic styling for flawless results every time.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-spa"></i>
+                <h3>Luxury Comfort</h3>
+                <p>Relax in our next-gen massage and spa zones.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-brain"></i>
+                <h3>Smart Styling</h3>
+                <p>Personalized looks with predictive trend tech.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact">
+        <p>&copy; 2025 SalonX | All Rights Reserved | Created by Anurag</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/metallified"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/918240226009"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

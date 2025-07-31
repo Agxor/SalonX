@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     video.playbackRate = 0.8;
 });
 
-
 const toggle = document.getElementById('menuToggle');
 const nav = document.getElementById('mobileNav');
 
